@@ -1,0 +1,41 @@
+
+header.home{
+    background-color: #ff4500;
+    height: 50px;
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.logo {background-color: #ff4500;width: 20%;display:inline-block;height:53px;}
+
+div.logo img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+div.burger-menu{
+    display: inline-block;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+div.burger-menu button{background-color: #ff4500;border-radius: 2px;border: 1px solid white;height: 25px;}
+
+
+div.burger-menu button i{
+    color: white;
+}
+
+
+p.header{
+    display:none;
+}
+
+
